@@ -37,8 +37,7 @@ body {
 	padding: 5px;
 	width: 94px;
 	height: 94px;
-	float: left;
-	clear: both;
+	margin: 2px 2px 2px 2px;
 }
 
 .botcontainer {
