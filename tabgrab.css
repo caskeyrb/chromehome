@@ -39,8 +39,10 @@ body {
 	border: 2px solid #ffd700;
 	border-width: 8px;
 	padding: 16px;
-	width: 88px;
-	height: 88px;
+	min-width: 172px;
+	min-height: 172px;
+	max-width: 172px;
+	max-height: 172px;
 	margin: 64px 64px 64px 64px;
 	text-align: center;
 }
