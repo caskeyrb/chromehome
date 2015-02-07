@@ -18,6 +18,7 @@ html {
 
 body {
 	font-family: 'RobotoCondensed-Light';
+	color: #fff;
 }
 
 .topcontainer {
@@ -28,16 +29,20 @@ body {
 	background-color:rgba(0,0,0,0.4);
 	width: 99%;
 	margin-bottom: 4px;
+	top: 8px;
 	clear:both;
+	height: 642px;
+	display: flex;
 }
 
 .topitemcontainer {
 	border: 2px solid #ffd700;
-	border-width: 2px;
-	padding: 5px;
-	width: 94px;
-	height: 94px;
-	margin: 2px 2px 2px 2px;
+	border-width: 8px;
+	padding: 16px;
+	width: 88px;
+	height: 88px;
+	margin: 64px 64px 64px 64px;
+	text-align: center;
 }
 
 .botcontainer {
@@ -47,6 +52,8 @@ body {
 	padding: 5px;
 	width: 99%;
 	background-color: rgba(0,0,0,0.4);
+	position: relative;
+	bottom: 8px;
 }
 
 .botitemcontainer {
