@@ -9,6 +9,8 @@ socialmedia.onclick = function() {
 
 var music = document.getElementById("musiclabel");
 music.onclick = function() {
+	alert("This would launch the music links");
+
 	//alert("This would launch the music links");
 	chrome.tabs.create({url: 'http://www.pandora.com'});
 	chrome.tabs.create({url: 'http://www.beatsmusic.com'});
@@ -18,6 +20,8 @@ music.onclick = function() {
 
 var productivity = document.getElementById("productivitylabel");
 productivity.onclick = function() {
+	alert("This would launch the productivity links");
+}
 	//alert("This would launch the productivity links");
 	chrome.tabs.create({url: 'http://www.linkedin.com'});
 	chrome.tabs.create({url: 'http://www.dropbox.com'});
