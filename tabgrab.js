@@ -18,3 +18,8 @@ var music = document.getElementById("musicbox");
 music.onclick = function() {
 	alert("This would launch the music links");
 };
+
+var productivity = document.getElementById("productivity");
+productivity.onclick = function() {
+	alert("This would launch the productivity links");
+}
