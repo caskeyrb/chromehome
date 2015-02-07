@@ -3,22 +3,13 @@
 
 	"name": "TabGrab",
 	"description": "Chrome extension that provides an environment for its user to categorize specific websites into groups and allows the ability to open these groups after opening a new window/tab.",
-	"version": "1.0",
+	"version": "0.1",
 
-	"browser_action" : 
-	{
-		"default_icon": "icon.png",
-		"default_popup": "tabgrab.html",
-		"default_title": "TabGrab"
-	},
-
-	"permissions": 
-	[
-		"activeTab"
+	"permissions": [
+		"tabs"
 	],
 
-	"chrome_url_overrides": 
-	{
+	"chrome_url_overrides": {
     	"newtab": "tabgrab.html"
 	}
 }
