@@ -28,12 +28,17 @@ body {
 	background-color:rgba(0,0,0,0.4);
 	width: 99%;
 	margin-bottom: 4px;
+	clear:both;
 }
 
 .topitemcontainer {
 	border: 2px solid #ffd700;
 	border-width: 2px;
 	padding: 5px;
+	width: 94px;
+	height: 94px;
+	float: left;
+	clear: both;
 }
 
 .botcontainer {
@@ -42,7 +47,7 @@ body {
 	border-width: 2px;
 	padding: 5px;
 	width: 99%;
-	background-color:rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.4);
 }
 
 .botitemcontainer {
