@@ -1,5 +1,20 @@
-var socialmedia;
-socialmedia = document.getElementsById("boxes").getElementsByTagName("h2");
+var socialmedia = document.getElementById("socialmediabox");
+socialmedia.onclick = function() {
+	alert("This would launch the social media links");
+}
 
-var socialmediabox = {link1: "http://www.facebook.com", link2: "http://www.twitter.com", link3: "http://www.tumblr.com"}=======
+var music = document.getElementById("musicbox");
 
+//var socialmediabox = {1: "http://www.facebook.com", 2: "http://www.twitter.com", 3: "http://www.tumblr.com", 4: "http://www.instagram.com"};
+
+/*function linkLaunch(){
+	for(var i = 0; i < box.length; i++){
+		social
+	}
+		
+}
+*/
+
+music.onclick = function() {
+	alert("This would launch the music links");
+};
