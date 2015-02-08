@@ -93,3 +93,16 @@ body {
 	display: block;
 	position: relative;
 }
+
+.countdown {
+	position: relative;
+	float: left; 
+	border: 2px solid #ffd700;
+	border-width: 8px;
+	min-width: 200px;
+	min-height: 200px;
+	max-width: 172px;
+	max-height: 172px;
+	margin-top: 48px;
+	margin-left: -28px;
+}
