@@ -59,6 +59,11 @@ body {
 }
 
 .botitemcontainer {
+	margin-left: 35%;
+	margin-top: 10px;
+	right: 60.5%;
+	position: absolute;
+	clear: both;
 
 }
 
@@ -76,17 +81,21 @@ body {
 	font-size: 36px;
 	color: #fff;
 	margin-right: -7px;
-	margin-left: 70%;
+	margin-left: 85%;
+	margin-top: -56px;
 	text-shadow: 0px 2px 5px rgba(0,0,0,0.6); 
-	position: relative;
+	position: absolute;
 }
 
 .title2 {
 	font-family: 'RobotoCondensed-Regular';
 	font-size: 36px;
 	color: #ffd700;
+	margin-right: -7px;
+	margin-left: 93%;
+	margin-top: -56px;
 	text-shadow: 0px 2px 5px rgba(0,0,0,0.6); 
-	position: relative;
+	position: absolute;
 }
 
 .newline {
@@ -105,4 +114,14 @@ body {
 	max-height: 172px;
 	margin-top: 48px;
 	margin-left: -28px;
+}
+
+.bing {
+	float: right;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: -44px;
+	border: 2px solid #ffd700;
+	border-width: 4px;
+	padding: 4px;
 }
